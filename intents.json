@@ -1,0 +1,19 @@
+{"intents":[
+    {"tag": "greetings",
+     "patterns":["hello", "hey", "hi", "good day", "greetings", "what's up?, how is it going?"],
+     "responses":["Hello!", "Hey",  "What can I do for you?"]        
+    },
+    {"tag": "name",
+    "patterns":["what is your name", "what should I call you", "who are you", "Can you tell me your name", "Bro what is your name"],
+    "responses":["My name is Dave", "You can call me Dave"]        
+    },
+   {"tag": "sports",
+   "patterns":["who is the best basketball player", "who is the great basketball player of all time?", "Who is the GOAT", "Who is the greatest athlete"],
+   "responses":["Lebron", "I am not sure, tell me who you think it is?"]        
+   },
+   {"tag": "money",
+   "patterns":["How can I earn money", "What should i do with my money"],
+   "responses":["Get a degree in CS!", "You can invest"]        
+   }
+    
+]}
